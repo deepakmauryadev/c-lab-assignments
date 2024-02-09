@@ -1,6 +1,5 @@
 // Sum of series of 1 + (1+2) + (1+2+3) + ... + (1+2+...+n)
 
-#include "math.h"
 #include "stdio.h"
 
 int main() {
