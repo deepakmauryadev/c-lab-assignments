@@ -1,4 +1,4 @@
-// Ques: WAP to find out reverse of a number.
+// Ques:
 
 #include "stdio.h"
 
