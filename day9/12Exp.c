@@ -1,4 +1,4 @@
-// Sum of series of 1 + (1+2) + (1+2+3) + ... + (1+2+...+n)
+// Sum of series of n^3
 
 #include "math.h"
 #include "stdio.h"
@@ -11,12 +11,10 @@ int main() {
   float sum = 0.0;
 
   for (int i = 1; i <= n; i++) {
-    for (int j = 1; j <= i; j++) {
-      sum += j;
-    }
+    sum += pow(i, 3);
   }
 
-  printf("Sum of this series upto %d is %lf", n, sum);
+  printf("Sum of series of n/n+1 upto %d is %lf", n, sum);
 
   return 0;
 }
