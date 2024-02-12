@@ -13,7 +13,7 @@ int main() {
     sum += (i / (float)(i + 1));
   }
 
-  printf("Sum of series of n/n+1 upto %d is %lf", n, sum);
+  printf("Sum of series of n/n+1 upto %d is %f", n, sum);
 
   return 0;
 }

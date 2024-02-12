@@ -3,8 +3,6 @@
 #include "math.h"
 #include "stdio.h"
 
-float power(float a, unsigned int b);
-
 int main() {
   unsigned int n;
   printf("n = ");
@@ -13,20 +11,10 @@ int main() {
   float sum = 0.0;
 
   for (int i = 1; i <= n; i++) {
-    sum += (1 / power((float)i, 2));
+    sum += (1 / pow((float)i, 2.0));
   }
 
-  printf("Sum of series of 1/n^2 upto %d is %lf", n, sum);
+  printf("Sum of series of 1/n^2 upto %d is %f", n, sum);
 
   return 0;
-}
-
-float power(float a, unsigned int b) {
-  int p = 1;
-
-  for (int i = 1; i <= b; i++) {
-    p *= a;
-  }
-
-  return p;
 }

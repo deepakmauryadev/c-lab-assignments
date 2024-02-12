@@ -7,7 +7,7 @@ int main() {
   printf("n = ");
   scanf("%d", &n);
 
-  float sum = 0.0;
+  int sum = 0;
 
   for (int i = 1; i <= n; i++) {
     for (int j = 1; j <= i; j++) {
@@ -15,7 +15,7 @@ int main() {
     }
   }
 
-  printf("Sum of this series upto %d is %lf", n, sum);
+  printf("Sum of this series upto %d is %d", n, sum);
 
   return 0;
 }
