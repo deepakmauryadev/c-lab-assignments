@@ -1,5 +1,5 @@
-// WAP to find the sum of two matrices of order 2x2 using multidimensional
-// arrays.
+// WAP to find the subtraction of two matrices of order 2x2 using
+// multidimensional arrays.
 
 #include "stdio.h"
 
