@@ -1,4 +1,4 @@
-// sum of n elements
+// display of n elements
 
 #include "stdio.h"
 
