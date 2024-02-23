@@ -1,4 +1,4 @@
-// multiplication of a matrix
+// multiplication of matrices
 
 #include "stdio.h"
 
@@ -44,7 +44,7 @@ int main() {
     for (int j = 0; j < n; j++) {
       m[i][j] = 0;
       for (int k = 0; k < n; k++) {
-        m[i][j] += a[i][k] * b[k][i];
+        m[i][j] += a[i][k] * b[k][j];
       }
     }
   }

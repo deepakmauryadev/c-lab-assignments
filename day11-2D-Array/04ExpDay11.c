@@ -5,7 +5,7 @@
 
 int main() {
   unsigned int n = 2;
-  float a[n][n];
+  float a[n][n], b[n][n], sub[n][n];
 
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
@@ -13,9 +13,6 @@ int main() {
       scanf("%f", &a[i][j]);
     }
   }
-
-  float b[n][n];
-  float sub[n][n];
 
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
