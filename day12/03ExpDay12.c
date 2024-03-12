@@ -9,7 +9,7 @@ int main() {
 
   int a[n];
   for (int i = 0; i < n; i++) {
-    printf("Value for a[%d]: ", i);
+    printf("a[%d]: ", i);
     scanf("%d", &a[i]);
   }
 

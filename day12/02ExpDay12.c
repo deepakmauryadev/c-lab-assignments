@@ -7,8 +7,7 @@ int main() {
   printf("Enter the size of array: ");
   scanf("%d", &n);
 
-  int a[n];
-  int na[n + 1];
+  int a[n], na[n + 1];
 
   for (int i = 0; i < n; i++) {
     printf("Value for a[%d]: ", i);
