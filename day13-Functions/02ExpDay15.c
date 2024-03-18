@@ -3,19 +3,20 @@
 #include "stdio.h"
 
 int factorial(int n) {
-	if (n == 0) {
-		return 1;
-	} else {
-		return n * factorial(n-1);
-	}
+  if (n == 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
 }
-int main() { 
-	int a;
-	printf("Enter a number: ");
-	scanf("%d", &a);
 
-	int f = factorial(a);
-	printf("The factorial of %d is %d\n", a, f);
+int main() {
+  int a;
+  printf("Enter a number: ");
+  scanf("%d", &a);
 
-	return 0; 
+  int f = factorial(a);
+  printf("The factorial of %d is %d\n", a, f);
+
+  return 0;
 }
