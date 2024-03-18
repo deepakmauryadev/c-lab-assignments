@@ -1,4 +1,4 @@
-## Questions Day 13
+## Questions Day 14
 
 1. Wap to find the length of a character array.
 2. Wap to copy one character array to anther character array.
