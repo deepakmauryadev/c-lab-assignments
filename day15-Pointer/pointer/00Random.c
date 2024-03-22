@@ -6,7 +6,7 @@ int main() {
 
   printf("Address of v = %p\n", p);
   printf("Value of v = %d\n", *p);
-  printf("Address of p = %u\n", &p);
+  printf("Address of p = %p\n", &p);
 
   return 0;
 }

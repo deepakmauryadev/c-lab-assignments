@@ -17,6 +17,7 @@ int main() {
   for (int i = 0; i < len; i++) {
     substr[i] = str[i + start];
   }
+  substr[len + 1] = '\0';
 
   printf("The substring is: %s\n", substr);
 

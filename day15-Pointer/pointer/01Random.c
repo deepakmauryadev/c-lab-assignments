@@ -1,8 +1,9 @@
 #include "stdio.h"
 
+void change(int a, int b);
+
 int main() {
   int x, y;
-  int change(int a, int b);
 
   printf("Enter the values for x and y: ");
   scanf("%d %d", &x, &y);
@@ -14,7 +15,7 @@ int main() {
   return 0;
 }
 
-int change(int a, int b) {
+void change(int a, int b) {
   int t = a;
   a = b;
   b = t;
