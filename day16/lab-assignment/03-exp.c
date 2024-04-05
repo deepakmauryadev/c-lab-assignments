@@ -24,7 +24,7 @@ int main() {
   sum.km = d1.km + d2.km;
   sum.m = d1.m + d2.m;
 
-  while (sum.m > 1000) {
+  while (sum.m >= 1000) {
     sum.km++;
     sum.m -= 1000;
   }

@@ -1,7 +1,7 @@
 all: compile run clean
 
 compile:
-	@gcc main.c -o main.exe
+	@gcc ./main.c -o main.exe
 
 run:
 	@./main.exe
